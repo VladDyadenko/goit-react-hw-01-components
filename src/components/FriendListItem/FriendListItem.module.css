@@ -6,8 +6,8 @@
     padding: 10px;
 
     display: flex;
-    align-items: center;
-    justify-content: start;
+    /* align-items: center;
+    justify-content: start; */
     
     
 
@@ -25,7 +25,7 @@
 }
 
 .Online{
-background: green;
+    background: green;
 }
 
 .avatar{

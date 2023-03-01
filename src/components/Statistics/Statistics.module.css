@@ -14,23 +14,28 @@
     font-size: 20px;
 }
 .statList{
- 
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 5px;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+       
     list-style: none;
     padding-left: 0;
     margin: 0;
     
 }
 
+.statList:last-child{
+    margin-right: -10px;
+}
 
 
 .item{
+    width: calc(100% / 5);
+    margin-right: 10px;
     padding: 10px;
     border-radius: 10px;
 }
+
 .label{
     display: flex;
     flex-direction: column;
