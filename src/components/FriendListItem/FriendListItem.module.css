@@ -6,11 +6,8 @@
     padding: 10px;
 
     display: flex;
-    /* align-items: center;
-    justify-content: start; */
-    
-    
-
+    align-items: center;
+   
     background-color: #FFFFFF;
 }
 
